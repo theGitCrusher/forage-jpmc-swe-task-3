@@ -42,12 +42,12 @@ class Graph extends Component<IProps, {}> {
       elem.setAttribute('row-pivots', '["timestamp"]');
       elem.setAttribute('columns', '["top_ask_price"]');
       elem.setAttribute('aggregates', JSON.stringify({
-        price abc: avg",
-        price def: 'avg',
-        ratio: avg".
-        timestamp: 'distinct count".
-        upper bound: avg",
-        lower bound: "avg".
+        price_abc: "avg",
+        price_def: 'avg',
+        ratio: "avg",
+        timestamp: "distinct count",
+        upper_bound: "avg",
+        lower_bound: "avg",
         trigger_alert: 'avg'.
       }));
     }
